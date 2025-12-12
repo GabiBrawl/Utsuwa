@@ -1,0 +1,18 @@
+Quantity,Comment,Designator,Value,Name,Price,Qty,Total,,
+3,4u7 0402,"C1,C12,C13",4u7,4u7,0.09,3,0.27,,https://www.digikey.pt/pt/products/detail/walsin-technology-corporation/WF04U7501DTL/23061316?s=N4IgTCBcDaICwFcDsACADHNEC6BfIA
+6,100nF 0402,"C2,C3,C4,C5,C6,C7",100nF,100nF,0.09,6,0.54,,https://www.digikey.pt/pt/products/detail/samsung-electro-mechanics/CL05B104KP5VPNC/20498482
+2,10uF 0603,"C14,C17",10uF,10uF,0.07,2,0.14,,https://www.digikey.pt/pt/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850
+2,18pF 0402,"C15,C16",18pF,18pF,0.3,2,0.6,,https://www.digikey.pt/pt/products/detail/kemet/CBR04C180F5GAC/3479640
+1,1N4148WS,D1,,1N4148WS,0.1,1,0.1,,https://www.digikey.pt/pt/products/detail/onsemi/1N4148WS/1873805
+1,WS2812C-2020,L1,,WS2812C-2020,,1,6.54,,https://pt.aliexpress.com/item/32878302621.html
+1,3u3,L2,,3u3,0.19,1,0.19,,https://www.digikey.pt/pt/products/detail/abracon-llc/AOTA-B201610S3R3-101-T/25621527?s=N4IgTCBcDaIEJgAwEYBszEGUDMAlbIAugL5A
+1,33Ω 0402,R1,33Ω,33Ω,0.09,1,0.09,,https://www.digikey.pt/pt/products/detail/yageo/RC0402FR-0733RL/726593
+1,1kΩ 0402,R5,1kΩ,1kΩ,0.09,1,0.09,,https://www.digikey.pt/pt/products/detail/panasonic-electronic-components/ERJ-2RKF1001X/79729
+2,27 0402,"R6,R7",27Ω,27Ω,0.09,2,0.18,,https://www.digikey.pt/pt/products/detail/yageo/RC0402JR-0727RL/726450
+1,RP2354A,U1,,RP2354A,0.86,1,0.86,,https://pt.mouser.com/ProductDetail/Raspberry-Pi/SC151113-A4?qs=4dK74SdgGtxoqGOrTUEtvA%3D%3D
+1,ABM8-272-T3,U3,,ABM8-272-T3,0.57,1,0.57,,https://www.digikey.pt/pt/products/detail/abracon-llc/ABM8-272-T3/22472366?s=N4IgTCBcDaIIICECyAOAtGA7GNAVAzCALoC%2BQA
+1,USBLC6-2SC6,U4,,USBLC6-2SC6,0.31,1,0.31,,https://www.digikey.pt/pt/products/detail/stmicroelectronics/USBLC6-2SC6/1040559
+1,AP2112K-3.3TRG1,U5,,AP2112K-3.3TRG1,0.19,1,0.19,,https://www.digikey.pt/pt/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bAKgEoDiyIAugL5A
+1,AH3377-W-7,U9,,AH3377-W-7,0.33,1,0.33,,https://www.digikey.pt/pt/products/detail/diodes-incorporated/AH3327-W-7/22310022
+,,,,,,,,,
+,,,,,,TOTAL:,11,,
