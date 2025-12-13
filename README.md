@@ -1,5 +1,7 @@
 # Utsuwa (うつわ)
 
+![Utsuwa Hero Image](assets/hero.png)
+
 **Utsuwa** is a custom-engineered, open-source hardware security key based on the **Pico Fido** firmware. It combines modern FIDO2/WebAuthn security.
 
 Unlike standard keys that use mechanical buttons, **Utsuwa** uses a **Hall Effect Sensor**, allowing for contactless authentication via a magnetic ring or charm.
