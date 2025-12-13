@@ -2,7 +2,7 @@
 
 ![Utsuwa Hero Image](assets/hero.png)
 
-**Utsuwa** is a custom-engineered, open-source hardware security key based on the **Pico Fido** firmware. It combines modern FIDO2/WebAuthn security.
+**Utsuwa** is a custom-engineered, open-source hardware security key based on the [**Pico Fido**](https://github.com/polhenarejos/pico-fido) firmware. It combines modern FIDO2/WebAuthn security.
 
 Unlike standard keys that use mechanical buttons, **Utsuwa** uses a **Hall Effect Sensor**, allowing for contactless authentication via a magnetic ring or charm.
 
@@ -20,7 +20,29 @@ Unlike standard keys that use mechanical buttons, **Utsuwa** uses a **Hall Effec
 
 ---
 
-## Firmware Configuration
+## Bill of Materials
+
+**Total estimated cost:** €26.90
+
+| Component | Part / Model | Qty | Notes |
+| :--- | :--- | :--- | :--- |
+| **Microcontroller** | Raspberry Pi RP2354A | 1 | Dual-core RISC-V/ARM with Secure Boot |
+| **Hall Effect Sensor** | AH3377-W-7 | 1 | Contactless magnetic authentication trigger |
+| **RGB LED** | WS2812C-2020 | 1 | Status indicator NeoPixel |
+| **Crystal Oscillator** | ABM8-272-T3 (12 MHz) | 1 | External clock reference |
+| **Voltage Regulator** | AP2112K-3.3TRG1 | 1 | 3.3V LDO power supply |
+| **USB Protection** | USBLC6-2SC6 | 1 | ESD protection on USB lines |
+| **Inductor** | 3.3µH (AOTA-B201610S3R3) | 1 | Buck converter filtering |
+| **Diode** | 1N4148WS | 1 | Schottky diode for power path |
+| **Capacitors** | 100nF, 4.7µF, 10µF, 18pF | 13 | Decoupling and filtering |
+| **Resistors** | 27Ω, 33Ω, 1kΩ | 4 | USB termination and pull-ups |
+| **PCB Fabrication** | Custom USB-A form factor | 1 | Compact design with integrated plug |
+
+Complete CSV with supplier links: [`bom.csv`](bom.csv)
+
+---
+
+## Firmware
 
 This board runs on the [Pico Fido](https://github.com/polhenarejos/pico-fido) open-source firmware. To support the custom hardware (RP2354A + Hall Effect + WS2812), you must compile the firmware with the following settings in `board_config.h`:
 
@@ -41,10 +63,16 @@ This board runs on the [Pico Fido](https://github.com/polhenarejos/pico-fido) op
 
 ## Flashing Instructions
 
-    First Time: Short the BOOT pads on the back of the PCB with tweezers while plugging it in.
+    First Time: Short the BOOT pad with the lanyard loop copper on the front of the PCB with tweezers or some other conductive material while plugging it in.
 
     Mount: The device will appear as a USB Mass Storage Drive (RPI-RP2).
 
     Flash: Drag and drop your compiled .uf2 file.
 
     Reboot: The device will reboot as a FIDO2 Security Key.
+
+## Acknowledgments
+
+Designed with 💙 by 𝕲𝕭
+
+Special thanks to the Hack Club community for their support
