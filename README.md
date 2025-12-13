@@ -42,6 +42,12 @@ Complete CSV with supplier links: [`bom.csv`](bom.csv)
 
 ---
 
+## Assembly
+
+For this project I'm not going to be making a CAD case of model, because I made the PCB itself beautiful, and seeing the electronics in this will be very cool. I have two ideas for protecting the electronics though: either use epoxy to cover everything, or I will use a clear shrinking tube to cover the PCB. I think the latter will give it a better look.
+
+---
+
 ## Firmware
 
 This board runs on the [Pico Fido](https://github.com/polhenarejos/pico-fido) open-source firmware. To support the custom hardware (RP2354A + Hall Effect + WS2812), you must compile the firmware with the following settings in `board_config.h`:
