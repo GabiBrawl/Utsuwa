@@ -22,7 +22,7 @@ Unlike standard keys that use mechanical buttons, **Utsuwa** uses a **Hall Effec
 
 ## Bill of Materials
 
-**Total estimated cost:** €26.90
+**Total estimated cost:** €29.45
 
 | Component | Part / Model | Qty | Notes |
 | :--- | :--- | :--- | :--- |
