@@ -20,6 +20,15 @@ Unlike standard keys that use mechanical buttons, **Utsuwa** uses a **Hall Effec
 
 ---
 
+# PCB Design
+
+This project's PCB was designed in EasyEDA Pro.
+![Schematic](/assets/schematics.png)
+![PCB Top 3D View](/assets/PCB_TOP.png)
+![PCB Bottom 3D View](/assets/PCB_BOT.png)
+
+---
+
 ## Bill of Materials
 
 **Total estimated cost:** €29.45
