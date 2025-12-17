@@ -9,15 +9,15 @@ Quantity,Comment,Designator,Value,Name,Price,Qty,Total,,
 1,33Ω 0402,R1,33Ω,33Ω,0.09,1,0.09,,https://www.digikey.pt/pt/products/detail/yageo/RC0402FR-0733RL/726593
 1,1kΩ 0402,R5,1kΩ,1kΩ,0.09,1,0.09,,https://www.digikey.pt/pt/products/detail/panasonic-electronic-components/ERJ-2RKF1001X/79729
 2,27 0402,"R6,R7",27Ω,27Ω,0.09,2,0.18,,https://www.digikey.pt/pt/products/detail/yageo/RC0402JR-0727RL/726450
-1,RP2354A,U1,,RP2354A,1.29,2,2.58,,https://www.reichelt.com/pt/en/shop/product/raspberry_pi_-_rp2354a_arm_cortex-m33_qfn-60-398452
+1,RP2354A,U1,,RP2354A,4.67,2,9.34,,https://pt.aliexpress.com/item/1005008130522927.html
 1,ABM8-272-T3,U3,,ABM8-272-T3,0.57,1,0.57,,https://www.digikey.pt/pt/products/detail/abracon-llc/ABM8-272-T3/22472366?s=N4IgTCBcDaIIICECyAOAtGA7GNAVAzCALoC%2BQA
 1,USBLC6-2SC6,U4,,USBLC6-2SC6,0.31,1,0.31,,https://www.digikey.pt/pt/products/detail/stmicroelectronics/USBLC6-2SC6/1040559
 1,AP2112K-3.3TRG1,U5,,AP2112K-3.3TRG1,0.19,1,0.19,,https://www.digikey.pt/pt/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bAKgEoDiyIAugL5A
 1,AH3377-W-7,U9,,AH3377-W-7,0.33,1,0.33,,https://www.digikey.pt/pt/products/detail/diodes-incorporated/AH3327-W-7/22310022
 1,Shrinking Tube 15mm,,,Shrinking Tube 15mm,2.55,1,2.55,,https://pt.aliexpress.com/item/1005004539858972.html
 ,PCB,PCB,,PCB,3.15,1,3.15,,
-,Extra costs digikey,,,VAT,,,4.97,,
-,Shipping costs reichelt,,,,,,12.95,,
+,Extra costs DigiKey,,,VAT,,,4.97,,
+,Extra costs Aliexpress,,,SHIPPING,,,3.15,,
 ,,,,,,,,,
-,,,,,,TOTAL:,36.34,€,
-,,,,,,,42.5178,$,
+,,,,,,TOTAL:,33.3,€,
+,,,,,,,38.961,$,

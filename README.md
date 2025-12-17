@@ -8,6 +8,9 @@ Unlike standard keys that use mechanical buttons, **Utsuwa** uses a **Hall Effec
 
 > Utsuwa (うつわ) comes from the Japanese word for "vessel", symbolizing a container for your digital soul.
 
+### Temporary message for PenguinBoyMo xD
+IM SORRY I FORGOT TO PUSH THE CHANGES BEFORE SLEEPING LAST NIGHT xD
+
 ---
 
 ## Features
@@ -31,7 +34,7 @@ This project's PCB was designed in EasyEDA Pro.
 
 ## Bill of Materials
 
-**Total estimated cost:** €29.45
+**Total estimated cost:** 39€
 
 | Component | Part / Model | Qty | Notes |
 | :--- | :--- | :--- | :--- |
